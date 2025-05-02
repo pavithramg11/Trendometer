@@ -9,7 +9,7 @@ import html
 import os
 
 def fetch_trending_topics():
-    api_key = os.getenv("AIzaSyBeuRk7payBeXDM-zbRtEoHXtXKUaOGQrM")  
+    api_key = os.getenv("abcd")  
     youtube = build('youtube', 'v3', developerKey=api_key)
 
     now = datetime.now(timezone.utc)
